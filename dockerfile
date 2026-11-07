@@ -1,9 +1,3 @@
-FROM nginx:alpine
-
-COPY app/ /usr/share/nginx/html/
-
-EXPOSE 80
-
 FROM python:3.12-slim
 
 WORKDIR /app
